@@ -6,6 +6,7 @@ class BinaryCode {
 	vector<string> decode(string str)
 	{
 		int aa;
+		int bb;
 		std::vector<string> res_vec;
 		string res_str = str;
 		res_str[0] = '0';
